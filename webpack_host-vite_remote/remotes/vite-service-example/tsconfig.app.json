@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "useDefineForClassFields": true,
+    "skipLibCheck": true,
+    /* Bundler mode */
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "module": "NodeNext",
+    "moduleResolution": "bundler",
+    "target": "esnext",
+    "jsx": "react-jsx",
+    "removeComments": false,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "suppressExcessPropertyErrors": true,
+    "experimentalDecorators": true,
+    "importsNotUsedAsValues": "preserve",
+    "sourceMap": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "include": [
+    "src"
+  ]
+}
